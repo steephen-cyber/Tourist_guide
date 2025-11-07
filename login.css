@@ -1,0 +1,75 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("kala.jpg");
+    border-image-width: 100vw;
+    background-size: cover;
+    background-repeat:no-repeat ;
+
+}
+  .logo{
+    position: absolute;
+    top: 10px;
+    left : 10px;
+    width: 200px;
+    height: 80px;
+   }
+
+
+.inner-box{
+    width:400px;
+    margin: 0 auto;
+    position:relative;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 20px 30px;
+    background: linear-gradient(to top right,#ffffffff,#4bc4e8e1);
+    border-radius: 6px;
+    text-align: center; 
+    box-shadow: 2px 2px 5px #090935f4 ;
+    z-index: 2;
+}
+
+  h1{
+    font-size: 2.5rem;
+    margin: 0 0 3px 0;
+    
+}  
+ 
+  .body p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    max-width: 1px;
+    font-weight: 700;
+}
+.body p input{
+    margin: 3px;
+    width: 350px;
+    height: 25px;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;      
+}
+
+ #submit{
+    width: 100px;
+    height: 25px;
+    background-color: #1818e1f4;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}  
+
+ #submit:hover{
+    background-color: #e9eef8f2;
+    color: rgb(13, 145, 189);
+    border: 2px solid rgb(13, 145, 189);
+    border-radius: 3px;
+ }
